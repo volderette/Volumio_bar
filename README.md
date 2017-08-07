@@ -9,4 +9,5 @@ Download volumio_bar.zip to use
 * For now volumio has to be available in your network via "volumio.local"
 * Add more functionality:
 * Add track info
-
+* Add menu bar icon
+* Hide dock icon
