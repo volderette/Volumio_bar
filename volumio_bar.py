@@ -7,10 +7,10 @@ class VolumioBar(rumps.App):
     meta_json = requests.get('http://volumio.local/api/v1/getstate').json()
     meta_title = "▶ "  + meta_json['artist'] + " - " + meta_json['title']
 
-#    @rumps.timer(2)
-#    def repeating_function(sender):
-#        meta  = requests.get('http://volumio.local/api/v1/getstate')
-#        meta_text = meta.text
+    @rumps.timer(2)
+    def repeating_function(sender):
+        meta  = requests.get('http://volumio.local/api/v1/getstate')
+        meta_text = meta.text
 
     @rumps.clicked(meta_title)
     def meta(self, _):
