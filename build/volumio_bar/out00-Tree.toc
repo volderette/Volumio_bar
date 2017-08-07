@@ -1,0 +1,11 @@
+('/Users/Andii/Volumio_bar/build/volumio_bar/setuptools-27.2.0-py3.5.egg',
+ None,
+ {'*.pyo', '*.py', '*.pyc', 'EGG-INFO', '*.so', '*.pyd'},
+ 'DATA',
+ [('setuptools/script (dev).tmpl',
+   '/Users/Andii/Volumio_bar/build/volumio_bar/setuptools-27.2.0-py3.5.egg/setuptools/script '
+   '(dev).tmpl',
+   'DATA'),
+  ('setuptools/script.tmpl',
+   '/Users/Andii/Volumio_bar/build/volumio_bar/setuptools-27.2.0-py3.5.egg/setuptools/script.tmpl',
+   'DATA')])
